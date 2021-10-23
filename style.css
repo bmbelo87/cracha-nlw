@@ -19,22 +19,9 @@ body {
 
 main {
   background: url(images/background.svg) no-repeat center/cover;
-  width: 375px;
+  width: 100vw;
   min-height: 812px;
   height: 100vh;
-}
-
-@media (min-width: 380px) {
-  main {
-    background: url(images/backgroundDesktop.svg) no-repeat center/cover;
-    width: 100vw;
-    min-height: 812px;
-    height: 100vh;
-  }
-  .avatar {
-    position: relative;
-    top: 1.75rem;
-  }
 }
 
 @media (min-width: 720px) {
