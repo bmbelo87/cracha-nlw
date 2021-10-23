@@ -24,30 +24,16 @@ main {
   height: 100vh;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1280px) {
   main {
     background: url(images/backgroundDesktop.svg) no-repeat center/cover;
     width: 100vw;
-
+    min-height: 820px;
     height: 100vh;
   }
 
-  .avatar {
-    position: relative;
-    top: 1.75rem;
-  }
-}
-
-@media (min-width: 960px) {
-  main {
-    background: url(images/backgroundDesktop.svg) no-repeat center/cover;
-    width: 100vw;
-
-    height: 100vh;
-  }
-  .avatar {
-    position: relative;
-    top: 1.75rem;
+  .container {
+    margin-top: 15.5rem;
   }
 }
 
