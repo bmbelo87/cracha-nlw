@@ -28,7 +28,7 @@ main {
   main {
     background: url(images/backgroundDesktop.svg) no-repeat center/cover;
     width: 100vw;
-    min-height: 820px;
+
     height: 100vh;
   }
 
@@ -42,7 +42,7 @@ main {
   main {
     background: url(images/backgroundDesktop.svg) no-repeat center/cover;
     width: 100vw;
-    min-height: 820px;
+
     height: 100vh;
   }
   .avatar {
